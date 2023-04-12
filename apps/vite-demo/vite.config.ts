@@ -22,7 +22,6 @@ export default defineConfig({
     istanbul({
       include: 'src/*',
       exclude: ['node_modules', 'test/'],
-      extension: [ '.js', '.ts', '.vue' ],
       requireEnv: true,
     }),
     viteTsConfigPaths({
